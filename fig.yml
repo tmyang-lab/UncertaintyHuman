@@ -1,0 +1,57 @@
+origin: figs
+target: paper_figs
+figure_type: svg
+
+fig2:
+  A: synthesis_all/All Subjects_proportion_no_opt_correct
+  B: synthesis_all/All Subjects_responseTimeCoh_no_opt
+  C: synthesis_all/All Subjects_proportion_no_opt_up
+  D: synthesis_all/All Subjects_responseTimeCoh_opt_2nd
+fig3:
+  A: s03/s03_proportion_no_opt_correct
+  B: s03/s03_responseTimeCoh_no_opt
+  C: s03/s03_proportion_no_opt_up
+  D: s06/s06_proportion_no_opt_correct
+  E: s06/s06_responseTimeCoh_no_opt
+  F: s06/s06_proportion_no_opt_up
+fig4:
+  A: sim/D_UR
+  B: sim/V_UR
+  C: sim/D_STD
+  D: sim/V_STD
+fig5:
+  A: synthesis_all/PARAM_UR_3D
+  B: sim/SIM_SYN_UR_AREAS_frus
+  C: synthesis_all/All Subjects_RTdiffURprop_opt
+  D: sim/SIM_RTdiffURprop_lr_ur_frus
+  E: synthesis_all/All Subjects_rtAcc_no_opt
+fig6:
+  A: sim/Kiani_Acc
+  B: sim/Kiani_UR
+  C: sim/Kiani_Dfix
+  D: sim/Kiani_V
+
+supp: 
+  fig1: all/all_3to1
+  fig2: 
+    A: all/all_rtCohFit_opt_up
+    B: all/all_rtAcc
+  fig3: 
+    A: sim/SIM_URpropSig_a
+    B: sim/SIM_URpropSig_k
+    C: sim/SIM_URpropSig_frus
+  fig4:
+    A: synthesis_all/All Subjects_fitted_RTdiff_URprop
+    B: sim/SIM_RTdiffURprop_lr_ur_a
+    C: sim/SIM_RTdiffURprop_lr_ur_k
+    D: synthesis_all/All Subjects_Rdiff_avgAccdiff
+  fig5:
+    A: synthesis_all/PARAM_RTdiff_3D
+    B: sim/SIM_UR_AREAS_3D
+    C: sim/SIM_RTdiff_3D
+    D: sim/SIM_SYN_UR_AREAS_a
+    E: sim/SIM_SYN_UR_AREAS_k
+  fig6:
+    C:  all/all_responseTimeCoh_opt_tt
+    D:  all/all_responseTimeCoh_opt_2d3b
+    
